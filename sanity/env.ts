@@ -7,7 +7,7 @@ export const dataset = assertValue(
 )
 
 
-
+export const token = process.env.SANITY_API_TOKEN
 
 export const projectId = assertValue(
   "2whlyh9k",
